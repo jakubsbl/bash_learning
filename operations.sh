@@ -1,3 +1,7 @@
 #!/bin/bash
-echo test
+
+mkdir lubie
+readlink -f lubie > zawartosc.txt
+mv zawartosc.txt lubie
+
 
