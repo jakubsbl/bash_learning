@@ -14,14 +14,7 @@ if [[ $1 == "--help" ]];then
 	exit 0
 fi
 
-
-#for i in $(ls)
-#do
-#	if [[ -f $i ]]; then
-#	echo "plik $i"
-#fi;
-#done;
-
+#-----------------------------------------------------------------
 
 for i in $*
 do
