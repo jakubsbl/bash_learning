@@ -7,9 +7,7 @@
 # *nie istnieje 
 
 if [[ $1 == "--help" ]];then
-    echo "Skrypt typechech.sh mówi o tym jakiego typu jest plik, ktory podasz jako parametr lub informuje, ze plik nie istnieje.
-    np. ./typecheck.sh plik123.txt
-    plik123.txt jest katalogiem"
+    echo -e "Skrypt typechech.sh mówi o tym jakiego typu jest plik, ktory podasz jako parametr lub informuje,\nze plik nie istnieje. \nnp. ./typecheck.sh plik123.txt plik123.txt jest katalogiem"
     exit 0
 fi
 
